@@ -1,0 +1,87 @@
+body,#root{
+    margin: 0;
+    padding: 0%;
+    height: 97vh;
+    width: 98%;
+    box-sizing: border-box;
+    overflow-x: none;
+}
+
+.head{
+    width: 100%;
+    height: 10%;
+    padding: 0.5rem;
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.body{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.child{
+    width: 50%;
+    height: 100%;
+}
+
+.dis{
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.search{
+    height: 10%;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: rgb(246, 241, 241);
+    padding: 0.5rem;
+    margin-bottom: 20px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+input{
+    background-color: rgb(246, 241, 241);
+    border: none;
+    width: 90%;
+    height: 20px;
+    overflow-x: hidden;
+    padding: 0.7rem;
+    padding-left: 0.5rem;
+    padding-right: 0;
+}
+
+button{
+   border: none;
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   color: white;
+   background-color: black;
+   margin-left: 1rem;
+}
+
+.reply{
+    width: 50%;
+    border-radius: 1rem;
+    background-color: rgb(243, 241, 241);
+    margin: 1rem 0;
+    margin-left: auto;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.reply2{
+    width: 70%;
+    border-radius: 1rem;
+    background-color: rgb(246, 243, 243);
+    padding: 1rem;
+    font-family: sans-serif;
+    margin: 1rem 0;
+}
